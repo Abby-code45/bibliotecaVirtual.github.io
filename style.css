@@ -104,9 +104,3 @@ body{
 .registrar-link p a:hover{
     text-decoration: underline;
 }
-@media screen  and (max-width: 1330px){
-    .caixa{
-        width: 50%;
-    }
-    
-}
