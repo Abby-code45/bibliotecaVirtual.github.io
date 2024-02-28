@@ -8,24 +8,54 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Biblioteca Virtual</title>
 </head>
+<style>
+    body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    height: 100vh;
+    background-color: black;
+    background: url(bibliitecamagica.jpeg) no-repeat;
+    background-repeat: repeat-y;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+</style>
 <body>
-    <div class="catalogo">
-        <form action="">
+    <div class="container">
+        <form action="#">
             <h1>Cadastro</h1>
-            <div class="caixaText">
-                <input type="text" placeholder="Nome completo" required>
-                
+            <div class="agupamento-input">
+                <div class="caixaText">
+                    <input id="firstname" type="text" name="firstname" placeholder="Nome" required>
+                </div>
+                <div class="caixaText">
+                    <input id="lastname" type="text" name="lastname" placeholder="Sobrenome" required>
+                </div>
+                <div class="caixaText">
+                    <input id="name" type="text" name="name" placeholder="Nome de Usuário" required>
+                </div>
+                <div class="caixaText">
+                    <input id="email" type="email" name="email" placeholder="email" required>
+                </div>
+                <div class="caixaText">
+                    <input id="telefone" type="tel" name="telefone" placeholder="(xx) xxxxx-xxxx" required>
+                </div>
+                <div class="caixaText">
+                    <input id="password" type="password" name="senha" placeholder="Senha" required>
+                </div>
+                <div class="caixaText">
+                    <input id="password" type="password" name="senha" placeholder="Confirme sua senha" required>
+                </div>
             </div>
-            <div class="caixaText">
-                <input type="password" placeholder="senha" required>
-                
-            </div>
+            
             <div class="lembre-me">
                 <label><input type="checkbox">Lembre-me</label>
-                <a href="#">Esqueceu a senha?</a>
             </div>
-            <button type="submit" class="cadastre"> c</button>
-            
+            <button type="submit" class="cadastre"> Concluir cadastro</button>
         </form>
     </div>
 </body>
