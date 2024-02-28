@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="biblioteca.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Biblioteca Virtual</title>
+</head>
+<style>
+    body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    height: 100vh;
+    background-color: black;
+    background: url(Harry\ Potter.jpeg) no-repeat;
+    background-repeat: repeat-y;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+</style>
+<body>
+    
+    <div class= "envelope">
+        <form action="">
+            <h1>Login</h1>
+            <div class="caixa">
+                <input type="text" placeholder="Nome de usuário" required>
+                <i class='bx bxs-user'></i> <!-- Pego no Boxicons-->
+            </div>
+            <div class="caixa">
+                <input type="password" placeholder="senha" required>
+                <i class='bx bxs-lock-alt'></i> <!-- Pego no Boxicons-->
+            </div>
+            <div class="lembre-me">
+                <label><input type="checkbox">Lembre-me</label>
+                <a href="#">Esqueceu a senha?</a>
+            </div>
+            <button type="submit" class="cadastre"> Login</button>
+            <div class="registrar-link">
+                <p> É novo na Biblioteca Virtual? <a href="#">Cadastre-se</a></p>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

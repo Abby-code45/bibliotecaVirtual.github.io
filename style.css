@@ -4,19 +4,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    height: 100vh;
-    background-color: black;
-    background: url(Harry\ Potter.jpeg) no-repeat;
-    background-repeat: repeat-y;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-}
+
 
 .envelope{
     width: 420px;
