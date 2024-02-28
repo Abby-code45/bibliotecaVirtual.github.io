@@ -14,28 +14,27 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: black;
     background: url(biblioteca.jpeg) no-repeat;
     background-repeat: repeat-y;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
 </style>
 <body>
-    <div class="container">
-        <form action="#">
+    <div class="envelope">
+        <form action="">
             <h1>Cadastro</h1>
-                <div class="caixaText">
+                <div class="caixa">
                     <input id="firstname" type="text" name="firstname" placeholder="Nome" required>
                 </div>
-                <div class="caixaText">
+                <div class="caixa">
                     <input id="lastname" type="text" name="lastname" placeholder="Sobrenome" required>
                 </div>
-                <div class="caixaText">
+                <div class="caixa">
                     <input id="name" type="text" name="name" placeholder="Nome de Usuário" required>
                 </div>
-                <div class="caixaText">
+                <div class="caixa">
                     <input id="email" type="email" name="email" placeholder="email" required>
                 </div>
                 <div class="caixaText">
@@ -49,7 +48,7 @@
                     <i class='bx bxs-lock-alt'></i> <!-- Pego no Boxicons-->
             </div>
 
-            <button type="submit" class="cadastre-se"> Concluir cadastro</button>
+            <button type="submit" class=""> Concluir cadastro</button>
         </form>
     </div>
 </body>
