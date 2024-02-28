@@ -65,7 +65,7 @@
 .lembre-me a:hover{
     text-decoration:underline;
 }
-.envelope .cadastre{
+.envelope .entre{
     width: 100%;
     height: 45px;
     background: black;
@@ -75,7 +75,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
     cursor: pointer;
     font-size: 16px;
-    color: #333;
+    color: #444;
     font-weight: 600;
 }
 .envelope .registrar-link{
@@ -95,13 +95,63 @@
 <!--Página de Cadastro-->
 
 .container{
-    width: 800px;
-    height: 80%;
-    background: white;
-    border: 2px solid rgba(255 255 255 .2);
+    width: 500px;
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 1);
     backdrop-filter: blur(20px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
     color: black;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 30px 40px;
 }
+
+.container h1{
+    font-size: 36px;
+    text-align: center;
+}
+.conteiner .caixaText{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: #444;
+    margin: 30px 0;
+}
+
+.caixaText input{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 1);
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.caixaText input::placeholder{
+    color: black;
+}
+.caixaText i{
+    position: absolute;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: black;
+}
+
+.container .cadastre-se{
+    width: 100%;
+    height: 45px;
+    background: black;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #444;
+    font-weight: 600;
+}
+
+

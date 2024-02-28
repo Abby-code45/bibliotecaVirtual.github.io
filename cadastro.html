@@ -14,21 +14,18 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    height: 100vh;
     background-color: black;
-    background: url(bibliitecamagica.jpeg) no-repeat;
+    background: url(biblioteca.jpeg) no-repeat;
     background-repeat: repeat-y;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    width: 100%;
 }
 </style>
 <body>
     <div class="container">
         <form action="#">
             <h1>Cadastro</h1>
-            <div class="agupamento-input">
                 <div class="caixaText">
                     <input id="firstname" type="text" name="firstname" placeholder="Nome" required>
                 </div>
@@ -49,13 +46,10 @@
                 </div>
                 <div class="caixaText">
                     <input id="password" type="password" name="senha" placeholder="Confirme sua senha" required>
-                </div>
+                    <i class='bx bxs-lock-alt'></i> <!-- Pego no Boxicons-->
             </div>
-            
-            <div class="lembre-me">
-                <label><input type="checkbox">Lembre-me</label>
-            </div>
-            <button type="submit" class="cadastre"> Concluir cadastro</button>
+
+            <button type="submit" class="cadastre-se"> Concluir cadastro</button>
         </form>
     </div>
 </body>
